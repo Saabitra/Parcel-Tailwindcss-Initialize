@@ -2,8 +2,8 @@
   "scripts": {
     "build-css": "tailwindcss build -i ./src/input.css -o ./dist/output.css",
     "watch": "tailwindcss watch -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "parcel build index.html",
-    "dev": "parcel index.html"
+    "build": "parcel build ./dist/index.html",
+    "dev": "parcel ./dist/index.html"
   },
   
   "devDependencies": {
