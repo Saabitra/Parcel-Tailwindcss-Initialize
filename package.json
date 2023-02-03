@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build-css": "tailwindcss build -i ./src/tailwind.css -o ./dist/tailwind.css",
+    "watch": "tailwindcss watch -i ./src/tailwind.css -o ./dist/tailwind.css --watch",
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  },
+  
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "tailwindcss": "^3.2.4"
+  }
+}
