@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "build-css": "tailwindcss build -i ./src/tailwind.css -o ./dist/tailwind.css",
-    "watch": "tailwindcss watch -i ./src/tailwind.css -o ./dist/tailwind.css --watch",
+    "build-css": "tailwindcss build -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss watch -i ./src/input.css -o ./dist/output.css --watch",
     "build": "parcel build index.html",
     "dev": "parcel index.html"
   },
