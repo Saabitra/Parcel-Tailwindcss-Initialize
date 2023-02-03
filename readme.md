@@ -1,4 +1,3 @@
 Step 1 - npm install
-Step 2 - npm update
-
+<!-- npm update -->
 Command - npx parcel src/index.html
